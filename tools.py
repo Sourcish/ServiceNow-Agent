@@ -32,7 +32,7 @@ def get_secret(secret_name: str) -> str:
 # ServiceNow configuration
 print("🔐 Loading ServiceNow credentials from Secret Manager...")
 
-SNOW_BASE_URL = "https://dev185966.service-now.com/api/now/table"
+SNOW_BASE_URL = "https://...service-now.com/api/now/table"
 SNOW_USERNAME = os.getenv("SNOW_USERNAME")
 SNOW_PASSWORD = get_secret("ServiceNow_Instance_Password")
 
